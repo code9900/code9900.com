@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    @apply font-serif layout flex-col min-h-screen w-full select-none bg-white text-black p-0;
+  }
+
+
+  mark {
+    @apply font-black bg-transparent;
+  }
+
+
+  a, button {
+    @apply hover:opacity-80 cursor-pointer;
+  }
+
+
+  h1 {
+    @apply text-6xl font-bold h-20;
+  }
+
+  h2 {
+    @apply text-3xl font-bold;
+  }
+}
+
+
+@layer components {
+  .layout {
+    @apply flex flex-row text-center items-center justify-items-center justify-center p-3 gap-3;
+  }
+
+
+  .click {
+    @apply bg-red-400 border-stone-300 outline-stone-300 focus:outline-stone-300 hover:outline -outline-offset-2 outline-2 rounded-full layout min-w-[150px];
+  }
+}
