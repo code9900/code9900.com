@@ -1,2 +1,2 @@
 # code9900.com
-code9900.com official portfolio website.
+code9900.com portfolio website.
